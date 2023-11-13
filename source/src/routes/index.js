@@ -10,6 +10,7 @@ import GroupPermissionListPage from '@modules/groupPermission';
 import PermissionSavePage from '@modules/groupPermission/PermissionSavePage';
 import SettingListPage from '@modules/listSetting';
 import SettingSavePage from '@modules/listSetting/SettingSavePage';
+import documentRoutes from '@modules/document/routes';
 /*
 	auth
 		+ null: access login and not login
@@ -59,9 +60,9 @@ const routes = {
         auth: true,
         title: 'Profile page',
     },
-    listSettingsPage:{
-        path:'/settings',
-        component:SettingListPage,
+    listSettingsPage: {
+        path: '/settings',
+        component: SettingListPage,
         auth: true,
         title: 'Settings page',
     },
@@ -74,6 +75,7 @@ const routes = {
     ...adminsRoutes,
     ...newsRoutes,
     ...nationRoutes,
+    ...documentRoutes,
 
     // keep this at last
     notFound: {

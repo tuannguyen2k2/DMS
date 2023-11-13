@@ -53,4 +53,8 @@ export const commonMessage = defineMessages({
     Nation: 'Nation',
     showSystemSettings: 'Show system settings',
     hideSystemSettings: 'Hide system settings',
+    documentPermission: 'Document Permission',
+    viewDocumentPermission: 'View document permission',
+    fileName: 'File name',
+    folder: 'Folder',
 });

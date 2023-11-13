@@ -23,7 +23,6 @@ const closeFormMessage = defineMessages({
     closeSuccess: 'Close {objectName} successfully',
     closeTitle: 'Bạn có muốn đóng trang này?',
     ok: 'Có',
-    cancel: 'Không',
 });
 
 const useSaveBase = ({

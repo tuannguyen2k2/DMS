@@ -50,6 +50,19 @@ const navMenuConfig = [
         ],
     },
     {
+        label: <FormattedMessage defaultMessage="Document Management" />,
+        key: 'Document-management',
+        icon: <InboxOutlined />,
+        children: [
+            {
+                label: <FormattedMessage defaultMessage="Document Permission" />,
+                key: 'document-permission',
+                path: routes.documentPermissionListPage.path,
+                // permission: [apiConfig.news.getList.baseURL],
+            },
+        ],
+    },
+    {
         label: <FormattedMessage defaultMessage="Settings" />,
         key: 'system-management',
         icon: <ControlOutlined />,

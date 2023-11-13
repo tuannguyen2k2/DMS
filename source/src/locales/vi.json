@@ -143,6 +143,8 @@
     "constants.menuConfig.443046426": "Người dùng",
     "constants.menuConfig.4041662779": "Danh mục tỉnh thành",
     "constants.menuConfig.359810770": "Quản lý địa chỉ",
+    "constants.menuConfig.1963370310": "Quản lý tài liệu",
+    "constants.menuConfig.2482995879": "Quyền hạn",
     "components.common.page.category.index.objectName": "danh mục",
     "locales.intl.commonMessage.modifiedDate": "Ngày chỉnh sửa",
     "locales.intl.commonMessage.createdDate": "Ngày khởi tạo",
@@ -173,5 +175,9 @@
     "locales.intl.commonMessage.nation": "Cấp",
     "locales.intl.commonMessage.Nation": "Danh mục tỉnh thành",
     "locales.intl.commonMessage.showSystemSettings": "Hiển thị cài đặt hệ thống",
-    "locales.intl.commonMessage.hideSystemSettings": "Ẩn cài đặt hệ thống"
+    "locales.intl.commonMessage.hideSystemSettings": "Ẩn cài đặt hệ thống",
+    "locales.intl.commonMessage.folder": "Thư mục",
+    "locales.intl.commonMessage.fileName": "Tên tệp",
+    "locales.intl.commonMessage.documentPermission": "Quyền tài liệu",
+    "locales.intl.commonMessage.viewDocumentPermission": "Xem quyền tài liệu"
 }
