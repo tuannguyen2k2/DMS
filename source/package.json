@@ -2,6 +2,9 @@
     "name": "cms-template",
     "version": "0.1.0",
     "private": true,
+    "engines": {
+        "nodejs": "16.x"
+    },
     "scripts": {
         "postinstall": "cd .. && husky install source/.husky",
         "start": "env-cmd -f ./env/.dev craco start",
